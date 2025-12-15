@@ -4,7 +4,7 @@ from discord.ext import commands
 # DİKKAT:
 # Tokenini BURAYA yazacaksın; bu dosyayı asla kimseyle paylaşma,
 # GitHub gibi yerlere yükleme. Sadece kendi bilgisayarında kalsın.
-TOKEN = "MTQ0MjU3NDMwMDc3ODQ2MzI2Mg.GeQQ0f.zN-b7HuYF61BUuTJJx1O8AavsXx3BX5yRT-QIU"  # Örn: "MT....."
+TOKEN = "Write Ur Bot Token"  # Örn: "MT....."
 
 intents = discord.Intents.default()
 # Komutları okuyabilmesi için message_content iznini açıyoruz
@@ -93,4 +93,5 @@ async def ayrisma(ctx, *, esya: str):
 
 if __name__ == "__main__":
     # Buraya tokenini direkt yazdığın için bu dosyayı kimseye verme.
+
     bot.run(TOKEN)
